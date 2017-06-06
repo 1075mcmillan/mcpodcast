@@ -53,3 +53,31 @@
 	font-size: 1.5em;
 	opacity: 1;
 }
+
+.panel-custom {
+	position: relative;
+	background: #1e1e1e;
+	border-width: 0;
+}
+
+.panel-custom ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.panel-custom li {
+	float: left;
+}
+
+.panel-custom li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 2em;
+}
+
+.panel-custom li a:hover {
+	background-color: #2e2e2e;
+}
